@@ -49,7 +49,6 @@ export const Contact = () => {
                                         name='category'
                                         placeholder='Web or App devlopment ...'
                                         required
-                                        autoFocus
                                     />
                                 </label>
                                 <label

@@ -3,6 +3,7 @@ import { infos } from '../../../public/data';
 import 'animate.css';
 import { Slide } from 'react-awesome-reveal';
 
+
 export const About = () => {
   return (
     <section id='about' className=' bg-slate-200'>
@@ -20,7 +21,7 @@ export const About = () => {
               infos.map<JSX.Element>(({ title, total, descp }) => {
                 return (
                   <div className=' bg-slate-100 border-2 rounded-md p-6 border-slate-600 hover:bg-slate-800 hover:cursor-pointer
-                 shadow-xl group  hover:border-transparent'
+                 hover:shadow-xl group  hover:border-transparent'
                     key={title}
                   >
                     <h3 className=" font-semibold mb-0.5 text-slate-800 group-hover:text-sky-400 text-lg">{title}</h3>

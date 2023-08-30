@@ -25,9 +25,6 @@ export const Hero = () => {
             '>
                     {/* Hero Image Illustration */}
                     <CustomImage src={device} alt='responsive-devices' classes={`
-                  animate__animated
-                  animate__pulse
-                  animate__infinite
                 col-start-2
                 
                 `} />

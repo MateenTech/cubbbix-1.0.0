@@ -23,7 +23,7 @@ export const Navbar: React.FC = () => {
         <h1
           className={`cursor-pointer text-2xl font-extrabold animate__animated animate__tada`}
         >
-          <Link href={'#home'}>CU<span className=' text-sky-400'>BBIX</span></Link>
+          <Link href={'#home'}>CUB<span className=' text-sky-400'>BBIX</span></Link>
         </h1>
 
         <ul
