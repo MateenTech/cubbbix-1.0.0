@@ -8,7 +8,7 @@ import { Contact } from "./components/Contact/Contact";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />
